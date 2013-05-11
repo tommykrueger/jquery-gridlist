@@ -11,7 +11,6 @@
 <link rel="shortcut icon" href="images/favicon.png" />
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.93286.js"></script>
 <script type="text/javascript" src="js/jquery.gridlist.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 
@@ -31,7 +30,7 @@
 /* custom gridlist styles */
 ul#gridlist {
 	width: 690px;
-	height: 704px;
+	height: 734px;
 	margin: 0 auto;
 	} 
 ul#gridlist li { 

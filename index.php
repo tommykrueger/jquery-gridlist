@@ -35,10 +35,11 @@
 					<span>View On Github</span>
 					<span class="small">Checkout grid list github repo</span>
 				</a>
-				<a class="button brown" id="download-package" href="example-simple.php">
+				<a class="button brown" id="download-package" href="https://github.com/tommykrueger/jquery-gridlist/archive/master.zip">
 					<span>Download Package</span>
 					<span class="small">Download package with examples</span>
 				</a>
+				<!-- 
 				<a class="button brown" id="download-min" href="example-simple.php">
 					<span>Download Min Version</span>
 					<span class="small">Version 0.1 -> 32kb</span>
@@ -47,6 +48,7 @@
 					<span>Download Dev Version</span>
 					<span class="small">Version 0.1 -> 132kb</span>
 				</a>
+				 -->
 			</div>
 			
 			
@@ -137,7 +139,7 @@
 					<li>Define Columns and rows</li>
 					<li>Usefull to display featured articles or latest posts on your website</li>
 					<li>Customizable with CSS and Javascript callbacks</li>
-					<li>Use an content you want to display</li>
+					<li>Use any content you want to display</li>
 				</ul>
 			</div>
 			<div class="content-block">
