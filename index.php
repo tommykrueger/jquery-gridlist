@@ -125,7 +125,7 @@
 				
 <div class="code-block">
 <pre><code><span class="library">$</span>(<span class="string">'#gridlist'</span>).gridList({
-	columns: <span class="integer">3</span>,
+	columns: <span class="integer">2</span>,
 	rows: <span class="integer">3</span>
 });</code></pre>
 </div>
@@ -140,6 +140,7 @@
 					<li>Usefull to display featured articles or latest posts on your website</li>
 					<li>Customizable with CSS and Javascript callbacks</li>
 					<li>Use any content you want to display</li>
+					<li>jQuery Gridlist plugin was tested with jQuery v1.9.1</li>
 				</ul>
 			</div>
 			<div class="content-block">
@@ -150,7 +151,8 @@
 					<li><a href="example-simple.php">Basic Example</a></li>
 					<li><a href="example-feature.php">3x3 Feature List</a></li>
 					<li><a href="example-teaser.php">One column teaser</a></li>
-					<li><a href="example-different-direction.php">Example with different directions</a></li>
+					<li><a href="example-different-direction.php">Example with different direction</a></li>
+					<li><a href="example-shuffled.php">Shuffled list example</a></li>
 				</ul>
 			</div>
 			<div class="content-block">
@@ -177,6 +179,21 @@
 						<td>direction</td>
 						<td>'top'</td>
 						<td>set the direction to which the gridlist will be shifted on everry step. It can be 'top' or 'bottom'.</td>
+					</tr>
+					<tr>
+						<td>speed</td>
+						<td>3000</td>
+						<td>set the speed of the list animation in milliseconds. I t defines the time between each animation step.</td>
+					</tr>
+					<tr>
+						<td>transitionSpeed</td>
+						<td>500</td>
+						<td>set the speed of the list transition in milliseconds</td>
+					</tr>
+					<tr>
+						<td>shuffle</td>
+						<td>false</td>
+						<td>Should the list be shuffled on startup?</td>
 					</tr>
 				</table>
 			</div>

@@ -20,7 +20,7 @@ jQuery(document).ready(function($){
 
 	// save the gridlist as a javascript object in order to call public methods later
 	var gridList = $('#gridlist').gridList({
-		columns: 3,
+		columns: 2,
 		rows: 3
 	});
 
