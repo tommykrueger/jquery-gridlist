@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>jQuery Grid list - Simple Example</title>
+<title>jQuery Grid list - 2 Column 3 Rows Example</title>
 
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
 <link rel="stylesheet" href="css/jquery.gridlist-0.1.css" type="text/css" media="screen" charset="utf-8" />
@@ -13,6 +13,21 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.gridlist.js"></script>
 
+<style>
+
+.box {
+	height: 300px;
+	min-height: 360px;
+	}
+
+/* custom gridlist styles */
+ul#gridlist {
+	width: 360px;
+	height: 262px;
+	margin: 0 auto;
+	} 
+</style>
+
 <script type="text/javascript">
 
 jQuery.noConflict();
@@ -20,18 +35,8 @@ jQuery(document).ready(function($){
 
 	// save the gridlist as a javascript object in order to call public methods later
 	var gridList = $('#gridlist').gridList({
-		columns: 3,
-		rows: 3
-	});
-
-	// public access
-	$('a#pause').click(function(e){
-		e.preventDefault();
-		gridList.pause();
-	});
-	$('a#resume').click(function(e){
-		e.preventDefault();
-		gridList.resume();
+		columns: 4,
+		rows: 2
 	});
 });
 

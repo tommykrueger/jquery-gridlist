@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>jQuery Grid list - Featured Example</title>
+<title>jQuery Grid list - Different Direction Example</title>
 
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
 <link rel="stylesheet" href="css/jquery.gridlist-0.1.css" type="text/css" media="screen" charset="utf-8" />
@@ -72,7 +72,7 @@ jQuery(document).ready(function($){
 	var gridList = $('#gridlist').gridList({
 		columns: 3,
 		rows: 3,
-		speed: 1000
+		direction: 'bottom'
 	});
 
 	// public access

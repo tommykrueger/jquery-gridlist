@@ -84,32 +84,30 @@
 	{
 		_init: function() {
 	
-			if(this.$elem.children().length <= 1){
-				console.log('starting grid list animation');
+			if(this.$elem.children().length <= 1)
 				return false;
-			}else{
-				var $this = this;
 				
-				// shuffle the list if the option is set
-				if(this.$options.shuffled)
-					this._shuffleList();
-				
-				// set the classes
-				this._setItemCSS();
-				
-				this.$children.click(this._click);
-				
-				var $elemWidthHalf = this.$elem.width() / 2;
-				
-				var $elemItemWidthHalf = this.$children.width() / 2;
-				
-				var offsetX = $elemWidthHalf - $elemItemWidthHalf;
-				
-				// start the slider
-				this._start();
-				
-				return $this;
-			}
+			var $this = this;
+			
+			// shuffle the list if the option is set
+			if(this.$options.shuffled)
+				this._shuffleList();
+			
+			// set the classes
+			this._setItemCSS();
+			
+			this.$children.click(this._click);
+			
+			var $elemWidthHalf = this.$elem.width() / 2;
+			
+			var $elemItemWidthHalf = this.$children.width() / 2;
+			
+			var offsetX = $elemWidthHalf - $elemItemWidthHalf;
+			
+			// start the slider
+			this._start();
+			
+			return $this;
 			
 		},
 		
@@ -147,13 +145,8 @@
 					//console.log($this);
 					
 					// check if columns or rows must be ignored (teaser)
-					
 					if(options.rows == -1){
-						//$this._renderSingle();
-						
 						$this.teasing = true;
-						console.log('teaser rendering');
-						console.log($this.$children.length);
 						//options.rows = $this.$children.length;
 					}
 					
@@ -201,7 +194,7 @@
 						}
 						
 						$this.$children = $this.$elem.children();
-						console.log('options transitionSpeed', $this.$options.transitionSpeed);
+
 						// todo -> check which direction the list should go
 						$.each($this.$children, function(index, el){
 							

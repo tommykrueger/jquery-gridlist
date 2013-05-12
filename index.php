@@ -150,8 +150,9 @@
 				<ul>
 					<li><a href="example-simple.php">Basic Example</a></li>
 					<li><a href="example-feature.php">3x3 Feature List</a></li>
-					<li><a href="example-teaser.php">One column teaser</a></li>
-					<li><a href="example-different-direction.php">Example with different direction</a></li>
+					<li><a href="example-two-column-three-rows.php">2 column 3 rows</a></li>
+					<li><a href="example-four-column-two-rows.php">4 column 2 rows</a></li>
+					<!-- <li><a href="example-different-direction.php">Example with different direction</a></li> -->
 					<li><a href="example-shuffled.php">Shuffled list example</a></li>
 				</ul>
 			</div>
@@ -175,11 +176,13 @@
 						<td>3</td>
 						<td>define how many rows the grid shoud have. The grid animation sequence will be calculated depending on this value</td>
 					</tr>
+					<!-- 
 					<tr>
 						<td>direction</td>
 						<td>'top'</td>
 						<td>set the direction to which the gridlist will be shifted on everry step. It can be 'top' or 'bottom'.</td>
 					</tr>
+					 -->
 					<tr>
 						<td>speed</td>
 						<td>3000</td>

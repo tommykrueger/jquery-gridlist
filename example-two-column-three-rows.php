@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>jQuery Grid list - Simple Example</title>
+<title>jQuery Grid list - 2 Column 3 Rows Example</title>
 
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
 <link rel="stylesheet" href="css/jquery.gridlist-0.1.css" type="text/css" media="screen" charset="utf-8" />
@@ -20,7 +20,7 @@ jQuery(document).ready(function($){
 
 	// save the gridlist as a javascript object in order to call public methods later
 	var gridList = $('#gridlist').gridList({
-		columns: 3,
+		columns: 2,
 		rows: 3
 	});
 

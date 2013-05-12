@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>Jquery Grid list - Shuffled list Example</title>
+<title>jQuery Grid list - Shuffled list Example</title>
 
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
 <link rel="stylesheet" href="css/jquery.gridlist-0.1.css" type="text/css" media="screen" charset="utf-8" />
